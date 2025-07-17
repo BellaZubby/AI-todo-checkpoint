@@ -1,37 +1,36 @@
+<!-- Main HTML structure for AI To-Do List App -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Todo App</title>
-  <link rel="stylesheet" href="style.css" />
+  <!-- Meta and title -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI To-Do List App</title>
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <h1>Todo List</h1>
-    <button id="darkModeToggle" aria-pressed="false">🌙 Dark Mode</button>
-  </header>
-
-  <main>
-    <form id="todo-form" aria-label="Add a new todo">
-      <input type="text" id="todo-input" placeholder="Add a task..." required aria-label="Todo input" />
+  <!-- Dark/Light Mode Toggle Button (fixed top-right) -->
+  <button id="darkModeToggle">🌙 Dark Mode</button>
+  <!-- App Container -->
+  <div class="container">
+    <!-- App Title -->
+    <h1>To-Do List</h1>
+    <!-- To-Do Form for Adding Tasks -->
+    <form id="todo-form">
+      <input id="todo-input" type="text" placeholder="Add a new task..." required />
       <button type="submit">Add</button>
     </form>
-
-    <nav class="filters" aria-label="Filter todos">
-      <button data-filter="all" class="filter-btn active">All</button>
-      <button data-filter="active" class="filter-btn">Not Done</button>
-      <button data-filter="completed" class="filter-btn">Done</button>
-    </nav>
-
-    <section aria-label="Todo list">
-      <ul id="todo-list"></ul>
-    </section>
-  </main>
-
-  <footer style="text-align:center; margin-top:2rem; color:var(--completed-text); font-size:0.95em;">
-    <span>Todo App &copy; 2024</span>
-  </footer>
-
+    <!-- Filter Buttons for All/Active/Completed -->
+    <div class="filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="active">Not Completed</button>
+      <button class="filter-btn" data-filter="completed">Completed</button>
+    </div>
+    <!-- To-Do List Display -->
+    <ul id="todo-list"></ul>
+  </div>
+  <!-- Link to JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 # AI To-Do List App
 
-[Project Specification](./docs/spec.md)
+[Project Specification](./spec.md)
 
 A simple, interactive To-Do List web application that helps you manage your daily tasks efficiently. This app supports adding, editing, deleting, and filtering tasks, as well as toggling between light and dark modes. All your tasks are saved in your browser, so you never lose your progress!
 

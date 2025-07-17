@@ -46,8 +46,8 @@ This project is a browser-based To-Do List application designed for simplicity a
 ### Core Requirements
 
 - Users can add, edit, and delete tasks.
-- Users can mark tasks as completed or active.
-- Users can filter tasks by status (all, active, completed).
+- Users can mark tasks as completed or not completed.
+- Users can filter tasks by status (all, not completed, completed).
 - The app supports toggling between light and dark modes.
 - All tasks persist in local storage, so they remain after refreshing or closing the browser.
 

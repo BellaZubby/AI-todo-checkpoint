@@ -9,8 +9,8 @@ The AI To-Do List App is a browser-based application designed to help users mana
 - Add new tasks
 - Edit existing tasks
 - Delete tasks
-- Mark tasks as completed or active
-- Filter tasks by status: all, active, completed
+- Mark tasks as completed or not completed
+- Filter tasks by status: all, not completed, completed
 - Toggle between light and dark modes
 - Persist tasks in browser local storage
 
@@ -21,7 +21,7 @@ The AI To-Do List App is a browser-based application designed to help users mana
    - Users can add a new task by entering text and submitting the form.
    - Users can edit the text of an existing task inline.
    - Users can delete a task from the list.
-   - Users can mark a task as completed (checkbox) or active.
+   - Users can mark a task as completed (checkbox) or not completed.
 
 2. **Filtering**
 

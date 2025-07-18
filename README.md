@@ -1,5 +1,10 @@
 # AI To-Do List App
 
+### 🚀 Live Demo
+
+Check out the live version of this project here:  
+[AI To-Do List App](https://bellazubby.github.io/AI-todo-checkpoint/)
+
 [Project Specification](./spec.md)
 
 A simple, interactive To-Do List web application that helps you manage your daily tasks efficiently. This app supports adding, editing, deleting, and filtering tasks, as well as toggling between light and dark modes. All your tasks are saved in your browser, so you never lose your progress!

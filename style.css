@@ -98,6 +98,32 @@ h1 {
   color: #fff;
 }
 
+/* Custom filter button colors */
+.filter-btn.filter-all {
+  background: #007bff;
+}
+.filter-btn.filter-active {
+  background: #ef4444;
+}
+.filter-btn.filter-completed {
+  background: #22c55e;
+}
+
+.filter-btn.filter-all.active, .filter-btn.filter-all:hover {
+  background: #0056b3;
+}
+.filter-btn.filter-active.active, .filter-btn.filter-active:hover {
+  background: #b91c1c;
+}
+.filter-btn.filter-completed.active, .filter-btn.filter-completed:hover {
+  background: #15803d;
+}
+
+/* Remove border for all filter buttons */
+.filter-btn {
+  border: none;
+}
+
 /* Delete Button Styles */
 #todo-list button.delete-btn {
   background: #ef4444;
@@ -210,5 +236,25 @@ body.dark #todo-list li {
 }
 body.dark .completed .task-desc {
   color: #666;
+}
+
+/* Dark mode variants */
+body.dark .filter-btn.filter-all {
+  background: #0056b3;
+}
+body.dark .filter-btn.filter-active {
+  background: #b91c1c;
+}
+body.dark .filter-btn.filter-completed {
+  background: #15803d;
+}
+body.dark .filter-btn.filter-all.active, body.dark .filter-btn.filter-all:hover {
+  background: #003974;
+}
+body.dark .filter-btn.filter-active.active, body.dark .filter-btn.filter-active:hover {
+  background: #7f1111;
+}
+body.dark .filter-btn.filter-completed.active, body.dark .filter-btn.filter-completed:hover {
+  background: #166534;
 }
   
